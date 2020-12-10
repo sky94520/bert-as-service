@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+   detail:
+     build: .
+     volumes:
+       - .:/code
+     ports:
+       - "5555:5555"
+       - "5556:5556"
